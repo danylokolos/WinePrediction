@@ -1,0 +1,17 @@
+{
+    "name": "Validationset",
+    "ext": "csv",
+    "fn": "Validationset.csv",
+    "src": "WR_Wine",
+    "fullname": "Validationset.csv",
+    "dtype": "table",
+    "format": "Tabular",
+    "size": "1",
+    "date": "Sat Sep 26 06:13:15 2020",
+    "islocked": "No",
+    "iserror": false,
+    "rows": 320,
+    "cols": 12,
+    "isvalid": "No",
+    "isscored": "No"
+}

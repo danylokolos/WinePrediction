@@ -1,0 +1,15 @@
+{
+    "status": "ready",
+    "data": "created",
+    "msg": "Dataset created",
+    "code": "90e8_1636994276812079:4f973092-7f7f-4812-f772-e0321b5050d8",
+    "rows": 1599,
+    "trnrows": 1279,
+    "tstrows": 320,
+    "trncols": 12,
+    "tstcols": 12,
+    "columns": [
+        "quality"
+    ],
+    "callback": "binddbset"
+}

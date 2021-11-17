@@ -1,0 +1,17 @@
+{
+    "name": "Trainingset",
+    "ext": "csv",
+    "fn": "Trainingset.csv",
+    "src": "WR_Wine",
+    "fullname": "Trainingset.csv",
+    "dtype": "table",
+    "format": "Tabular",
+    "size": "1",
+    "date": "Sat Sep 26 06:13:15 2020",
+    "islocked": "No",
+    "iserror": false,
+    "rows": 1279,
+    "cols": 12,
+    "isvalid": "No",
+    "isscored": "No"
+}

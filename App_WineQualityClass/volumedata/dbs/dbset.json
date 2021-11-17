@@ -1,0 +1,360 @@
+{
+    "name": "DS_Wine",
+    "dtype": "table",
+    "split": 80,
+    "trnfn": "trn.csv",
+    "tstfn": "tst.csv",
+    "random_state": "123456",
+    "kfold": "1",
+    "cfold": 0,
+    "trn": [
+        "fixedacidity",
+        "volatileacidity",
+        "citricacid",
+        "residualsugar",
+        "chlorides",
+        "freesulfurdioxide",
+        "totalsulfurdioxide",
+        "density",
+        "pH",
+        "sulphates",
+        "alcohol"
+    ],
+    "tst": [
+        "quality"
+    ],
+    "col": [],
+    "islocked": "No",
+    "operation": [
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on fixedacidity",
+            "type": "general",
+            "iid": "aa21b590e845eb27db23bce12093781bc9",
+            "feature": "fixedacidity",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on volatileacidity",
+            "type": "general",
+            "iid": "aaf10508ff39b2e6b4dd1f33dfb2656f0f",
+            "feature": "volatileacidity",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on citricacid",
+            "type": "general",
+            "iid": "aa382e4960ed91e9ebd305767809d5a4a1",
+            "feature": "citricacid",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on residualsugar",
+            "type": "general",
+            "iid": "aab59e5e417a78b2d1033607168462c890",
+            "feature": "residualsugar",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on chlorides",
+            "type": "general",
+            "iid": "aa2a9c4d771dd13c6372748a14a632d224",
+            "feature": "chlorides",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on freesulfurdioxide",
+            "type": "general",
+            "iid": "aaa63c35b32a562dfdd9f805b096e2208d",
+            "feature": "freesulfurdioxide",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on totalsulfurdioxide",
+            "type": "general",
+            "iid": "aaf0fe8db89fdcc271bcca25cde0f8b925",
+            "feature": "totalsulfurdioxide",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on density",
+            "type": "general",
+            "iid": "aab86e730190fb829a8b67dddff221eec7",
+            "feature": "density",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on pH",
+            "type": "general",
+            "iid": "aa3cabc79a9014c6bbd89caa7482829ae9",
+            "feature": "pH",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on sulphates",
+            "type": "general",
+            "iid": "aace967443c784ec66610072c701e314f7",
+            "feature": "sulphates",
+            "keyval": {}
+        },
+        {
+            "algo": "Min-Max Normalization",
+            "applyon": "onfe",
+            "dtype": [
+                "table"
+            ],
+            "id": "min_max_normalization",
+            "isdisbled": false,
+            "param": [
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                },
+                {
+                    "cap": "No Parameter",
+                    "def": "",
+                    "key": "none",
+                    "show": "none"
+                }
+            ],
+            "text": "Apply Min-Max Normalization on alcohol",
+            "type": "general",
+            "iid": "aae60913bc77d943fcc6825e95aba0022c",
+            "feature": "alcohol",
+            "keyval": {}
+        }
+    ],
+    "operation_missing": {
+        "db": {
+            "id": "aacb232bcdd6a94bbb5b18adb28cd59ff1",
+            "feature": "db",
+            "applyon": "ondb",
+            "algo": "msing2remove",
+            "name": "Remove Rows",
+            "value": 0
+        }
+    },
+    "project": "50b12f0c683f40258fcc10e80f7e6393",
+    "src": "WR_Wine",
+    "missingop": "default",
+    "missingval": "default",
+    "email": {
+        "name": "Danylo Kolos",
+        "email": "danylo.kolos@gmail.com"
+    },
+    "isemail": "no",
+    "dstype": "sl",
+    "noprecompute": "no",
+    "basename": "DS_Wine"
+}

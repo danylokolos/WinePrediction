@@ -1,0 +1,35 @@
+{
+    "ids": [
+        "n_estimators"
+    ],
+    "vals": [
+        "100"
+    ],
+    "opt": [
+        [
+            "n_estimators",
+            "int",
+            "text",
+            "100",
+            true
+        ]
+    ],
+    "algo": "RandomForestClassifier",
+    "email": {
+        "name": "Danylo Kolos",
+        "email": "danylo.kolos@gmail.com"
+    },
+    "isemail": "no",
+    "salgo": {
+        "algo": "RandomForestClassifier",
+        "apath": "mlp",
+        "type": "original"
+    },
+    "apath": "mlp",
+    "algogenre": "original",
+    "algotype": "clsify",
+    "dbl1": "DS_Wine",
+    "raw": "WR_Wine",
+    "dbl2": "/",
+    "mname": "MD_Wine"
+}
